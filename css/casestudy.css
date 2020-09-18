@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family:"Uni Sans W01 Bold";
+    src:url("../Fonts/6013393/b46d9a47-ee5b-4506-ba43-d11b2bf73052.woff2") format("woff2"),url("Fonts/6013393/399c962b-42ca-413d-87b1-2e369a590e1b.woff") format("woff");
+
+}
+
+body {
+
+}
+

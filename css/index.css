@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/*
+This CSS resource incorporates links to font software which is the 
+valuable copyrighted property of Monotype and/or its suppliers. You 
+may not attempt to copy, install, redistribute, convert, modify or reverse 
+engineer this font software. Please contact Monotype with any questions 
+regarding Web Fonts: http://www.fonts.com
+*/
+@font-face {
+  font-family: "Uni Sans W01 Bold";
+  src: url("../Fonts/6013393/b46d9a47-ee5b-4506-ba43-d11b2bf73052.woff2") format("woff2"), url("../Fonts/6013393/399c962b-42ca-413d-87b1-2e369a590e1b.woff") format("woff");
+}
+
+body {
+  background-color: #212121;
+  font-family: "Uni Sans W01 Bold";
+}
+
+html,
+body {
+  margin: 0;
+
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 14vh;
+  padding-left: 14vh;
+  padding-top: 75px;
+  z-index: 1000;
+}
+
+.footer {
+  height: 70px;
+}
+
+.logo {
+  padding-top: 1px;
+  z-index: 500;
+}
+
+.mainNav {
+  list-style-type: none;
+  float: right;
+}
+
+.mainNav li {
+  list-style: none;
+  display: inline-block;
+}
+
+#resume {
+  padding-right: 0px;
+}
+
+.mainNav li a {
+  color: #E7F1F2;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 36px;
+  padding-right: 30px;
+}
+
+.mainNav li a:hover {
+  text-shadow: 1px 1px #F1E439, 2px 2px #EF311D,
+    -1px -1px #5DEDFD, -2px -2px #003DE5;
+
+}
+
+.landingHeroSpace {
+  display: flex;
+  margin: 0 200px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10px;
+
+}
+.landingHero {
+
+  padding-top: 20px;
+  position: relative;
+}
+
+
+.lines {
+  background-color: #E7F1F2;
+  display: flex;
+  align-items: center;
+  width: 3px;
+  margin-right: 2px;
+  z-index: 10;
+  opacity: .1;
+
+}
+
+.landingWords {
+  background-color: #E7F1F2;
+  box-shadow: 15px 15px 10px black;
+  height: 200px;
+  width:150px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  z-index: 10;
+  transform: rotate(5deg);
+  text-align: center;
+  color: #212121;
+}
+
+
+.rightCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialLinks {
+  display: inline;
+  padding-top: 40px;
+
+}
+
+.socialLinks img {
+  padding-right: 15px;
+}
+
+.socialLinks img:hover {
+  -webkit-filter: drop-shadow(1px 1px 0px #F1E439) drop-shadow(2px 2px 0px #EF311D)
+  drop-shadow(-1px -1px 0px #5DEDFD) drop-shadow( -2px -2px 0px #003DE5);
+  filter: drop-shadow(1px 1px 0px #F1E439) drop-shadow(2px 2px 0px #EF311D) 
+  drop-shadow(-1px -1px 0px #5DEDFD) drop-shadow( -2px -2px 0px #003DE5);
+}
+
+.CDCover {
+  position: relative;
+  z-index: 5;
+}
+
+#viewWork {
+  z-index: 50;
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  -webkit-filter: drop-shadow( 2px 2px 6px black);
+  filter:drop-shadow(2px 2px 6px black);
+
+
+}
+
+#viewWork img:hover {
+  -webkit-filter: drop-shadow(15px 15px 15px #EF311D);
+  filter: drop-shadow(15px 15px 15px rgba(239, 49, 29, 0.8));
+
+}
+
+.window {
+  z-index: 1;
+}
+
+.skillsBorder {
+  border-left: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+    border-right: 1px solid #7f7f7f;
+    border-bottom: 1px solid #7f7f7f;
+    height: 85%;
+    padding: 10px;
+    margin: 0;
+    z-index: inherit;
+}
+.skillsContent {
+  z-index: inherit;
+  border-left: 2px solid #404040;
+  border-top: 2px solid #404040;
+  border-right: 2px solid #f4f4f4;
+  border-bottom: 2px solid #f4f4f4;
+  background: #ABD2F3;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+
+.outside {
+  overflow-y: scroll;
+  overflow-x:hidden;
+  z-index: inherit;
+  border-left: 2px solid #404040;
+  border-top: 2px solid #404040;
+  border-right: 2px solid #f4f4f4;
+  border-bottom: 2px solid #f4f4f4;
+  background: #ABD2F3;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.outsideOfWork  {
+  color: #212121;
+  margin: 0px 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+
+}
+
+.aboutMeImages blockquote {
+  font-family: "Uni Sans W01 Bold";
+  word-spacing: 3px;
+  line-height: 35px;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #E7F1F2;
+
+}
+
+.aboutMeImages p {
+  font-family: 'Open Sans', sans-serif;
+  width: 580px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: #E7F1F2;
+}
+
+.workGridBottom {
+  z-index: 7;
+  color: #E7F1F2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  margin-left: 30px;
+  flex-flow: row;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  top: 80px;
+  letter-spacing: .025em
+
+}
+
+.windowContainer {
+  width: 600px;
+  height: 360px;
+
+  position: relative;
+  top: 50px;
+  left:10px;
+  box-sizing: border-box;
+
+  background-color: #CBCCCD;
+  border-top: 2px solid #E7F1F2;
+  border-left: 2px solid #E7F1F2;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right:15px;
+  padding-top: 5px;
+  margin-bottom: 100px;
+}
+
+.windowHeader {
+  z-index: 6;
+  height: 25px;
+  position: relative;
+  text-align: left;
+  color: #E7F1F2;
+  padding: .25em .75em;
+  line-height: 1.4;
+  width: calc(100% + 15px);
+  right: 15px;
+  bottom: 5px;
+  border-top: 1px solid #CBCCCD;
+  border-left: 1px solid #CBCCCD;
+  border-right: 2px solid #CBCCCD;
+  border-bottom: 1px solid #CBCCCD;
+  background: #18445A;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Open Sans', sans-serif;
+  color: #E7F1F2;
+
+
+}
+
+
+
+.workGridBottom h4{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.workGridBottom img:hover {
+  animation: wiggle 0.82s cubic-bezier(.36, .07, .19, .97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+
+.sideText {
+  float: left;
+  padding-left: 14vh;
+  position: fixed;
+  height: 68%;
+  z-index: 200;
+}
+
+.aboutMeImages {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-left: 33%;
+  padding-top: 10px;
+  color: #E7F1F2;
+  font-size: 24px;
+}
+
+@media only screen and (max-width:1300px) {
+  body {
+    margin: 14 vh;
+  }
+}
+
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 100000;
+  background-color: #212121;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.preloader #cd {
+  animation: spin 3s ease;
+  transition: all;
+  width: 150px;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+
+  }
+
+  50% {
+    transform: rotate(360deg);
+
+  }
+
+  100% {
+    transform: rotate(720deg);
+    opacity: 0;
+  }
+}
+
+@keyframes wiggle {
+
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  
+  40%,
+  60%  {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(2px, 0, 0);
+  }
+}
